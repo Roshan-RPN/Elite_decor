@@ -14,8 +14,25 @@ const projects = [
   { id: 1, title: "Modern Culinary Hub", category: "Kitchen", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/640111040_1227556366174206_9192253185739710812_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zrCEVc1iobsQ7kNvwFMXBU1&_nc_oc=AdrrHPQyGYkF6gsiZu_mmkqEuHvT6hP7mWrC5h-hqnQvmMcHlQy4C-Sy_7Z-HQjvz38&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=tfVkWfH8wkbbXIhJaHMnUw&_nc_ss=7b2a8&oh=00_Af5G_qHzy13epD_wrhPFqkvjZXdpa2SyjWVNiev_vUPEaA&oe=6A0BE1A2" },
   { id: 2, title: "Contemporary Kitchen Design", category: "Kitchen", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/485039791_966051028991409_1605017411252857178_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BciscAPVim0Q7kNvwGfczsY&_nc_oc=AdrjvCdq6ChhPdwluSakB9Uj-60K1p61a8zbrN7i--oa1Ev8vfARu3ziCtmlMCogYRU&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=vstWq8n5o_Fg1mASGzySsw&_nc_ss=7b2a8&oh=00_Af6GSWrUskQ2hG3bAH53LPBUM8rF377vV2JTKRXtw8j2dg&oe=6A0BE9AC" },
   { id: 3, title: "Custom Culinary Space", category: "Kitchen", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/481056339_947734527489726_4725817330014701814_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=w1xFB3XKQI4Q7kNvwEIoEcE&_nc_oc=AdqkZd01JPS-CT-301RwBjC33WZtQmn4AxsFP7y23qNj1_yz-IhfE0p23vuzSE5dCSY&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=GSA0DtpWPev3_bSYWaJjiA&_nc_ss=7b2a8&oh=00_Af6hHkvOXhjdgB5uASpcrW-ODv5_CuQVoZm7t1tAhyAZiw&oe=6A0BE7ED" },
-  { id: 18, title: "Modern Corporate Workspace", category: "Office", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/539403562_1082762387320272_2082729292234331129_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yvR2JcKBoqgQ7kNvwG3y8A5&_nc_oc=Adq0vHhmWPcT57KZlEg1hhftxvKMJs9QUAwzSIKiRjB8N9ns4EJE52mxs5pogMdmq9Y&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=WX-lk3CpedFFznfM2UgVQA&_nc_ss=7b2a8&oh=00_Af5V8FwvtlHDkfZnEYetCr53ifshXZ9g3xP0cL2cLY2sow&oe=6A0BD382" },
-  { id: 11, title: "Artistic Interior Flow", category: "Interior", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/480906495_948342584095587_3438252210585247962_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1TK5MGwB6EsQ7kNvwHRfFA0&_nc_oc=AdrYd5GyenFEB5lfVoQsJh9JMWRi1g8e2yMv1Mw2PwRtXOmsjcBDohK5f7-KeU2-m6s&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=ZAo3FfxZV9wwi_1AUXfkeA&_nc_ss=7b2a8&oh=00_Af4cB8735O8OtO2NXderzPISVG90YKaUdJW9aBPvVfoCXg&oe=6A0BE063" },
+  
+  // Bedroom
+  { id: 4, title: "Royal Suite", category: "Bedroom", image: "https://images.unsplash.com/photo-1616594084638-30cf7aba077a?auto=format&fit=crop&w=800&q=80" },
+  { id: 5, title: "Minimalist Sanctuary", category: "Bedroom", image: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80" },
+  
+  // Sitting Room
+  { id: 6, title: "The Grand Lounge", category: "Sitting", image: "https://images.unsplash.com/photo-1618221195710-2f77122a3b34?auto=format&fit=crop&w=800&q=80" },
+  { id: 7, title: "Contemporary Living", category: "Sitting", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" },
+  
+  // Office
+  { id: 8, title: "Modern Corporate Workspace", category: "Office", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/539403562_1082762387320272_2082729292234331129_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yvR2JcKBoqgQ7kNvwG3y8A5&_nc_oc=Adq0vHhmWPcT57KZlEg1hhftxvKMJs9QUAwzSIKiRjB8N9ns4EJE52mxs5pogMdmq9Y&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=WX-lk3CpedFFznfM2UgVQA&_nc_ss=7b2a8&oh=00_Af5V8FwvtlHDkfZnEYetCr53ifshXZ9g3xP0cL2cLY2sow&oe=6A0BD382" },
+  { id: 9, title: "Executive Suite", category: "Office", image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" },
+  
+  // Exterior
+  { id: 10, title: "Coastal Villa Exterior", category: "Exterior", image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" },
+  { id: 11, title: "Urban Architectural Marvel", category: "Exterior", image: "https://images.unsplash.com/photo-1600607687920-4833d9c75f76?auto=format&fit=crop&w=800&q=80" },
+  
+  // Interior
+  { id: 12, title: "Artistic Interior Flow", category: "Interior", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/480906495_948342584095587_3438252210585247962_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1TK5MGwB6EsQ7kNvwHRfFA0&_nc_oc=AdrYd5GyenFEB5lfVoQsJh9JMWRi1g8e2yMv1Mw2PwRtXOmsjcBDohK5f7-KeU2-m6s&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=ZAo3FfxZV9wwi_1AUXfkeA&_nc_ss=7b2a8&oh=00_Af4cB8735O8OtO2NXderzPISVG90YKaUdJW9aBPvVfoCXg&oe=6A0BE063" },
 ];
 
 function ProjectCard({ project }: { project: any }) {
