@@ -49,7 +49,7 @@ const services = [
     description: "Creating sanctuaries of luxury. From presidential suites to sprawling villas, we design every room to reflect your status and style.",
     features: ["Custom Furniture", "Lighting Design", "Material Sourcing", "Full Turnkey Execution"],
     icon: <Home size={40} />,
-    image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/484427189_963514095911769_340482014535653257_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NsurAQtg5noQ7kNvwFQpARf&_nc_oc=Ado8POT0-hPY9MM2QFinCZSiYt3bRmaC6C-rH0lrcK0ejMzUOb88wuHR4ube2Wh-qQg&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=Vn6mqI-k6iHEImUAvWGL6A&_nc_ss=7b2a8&oh=00_Af5UJ4OxnTF4P5CfJdWfmELp-kJIGn8vcLOfMWND33W1Qg&oe=6A0BD9E7"
+    image: "https://images.unsplash.com/photo-1616594084638-30cf7aba077a?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Corporate Interior Architecture",
@@ -57,7 +57,7 @@ const services = [
     description: "Designing high-performance workspaces that foster creativity and project professional authority.",
     features: ["Ergonomic Planning", "Brand Integration", "Boardroom Excellence", "Acoustic Optimization"],
     icon: <Building2 size={40} />,
-    image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/539403562_1082762387320272_2082729292234331129_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yvR2JcKBoqgQ7kNvwG3y8A5&_nc_oc=Adq0vHhmWPcT57KZlEg1hhftxvKMJs9QUAwzSIKiRjB8N9ns4EJE52mxs5pogMdmq9Y&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=WX-lk3CpedFFznfM2UgVQA&_nc_ss=7b2a8&oh=00_Af5V8FwvtlHDkfZnEYetCr53ifshXZ9g3xP0cL2cLY2sow&oe=6A0BD382"
+    image: "https://images.unsplash.com/photo-1497366216548-375260702979?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Custom Kitchens & Baths",
@@ -65,7 +65,7 @@ const services = [
     description: "Where culinary art meets engineering. We create kitchens and bathrooms that are as functional as they are beautiful.",
     features: ["Smart Kitchen Tech", "Premium Marble Finish", "Custom Cabinetry", "Efficient Plumbing Flows"],
     icon: <Layers size={40} />,
-    image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/640111040_1227556366174206_9192253185739710812_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zrCEVc1iobsQ7kNvwFMXBU1&_nc_oc=AdrrHPQyGYkF6gsiZu_mmkqEuHvT6hP7mWrC5h-hqnQvmMcHlQy4C-Sy_7Z-HQjvz38&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=tfVkWfH8wkbbXIhJaHMnUw&_nc_ss=7b2a8&oh=00_Af5G_qHzy13epD_wrhPFqkvjZXdpa2SyjWVNiev_vUPEaA&oe=6A0BE1A2"
+    image: "https://images.unsplash.com/photo-1556911220-07639a747f75?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Artistic Decor & Styling",
@@ -73,7 +73,7 @@ const services = [
     description: "The final touch that defines the space. We source the finest art and accessories to complete your interior's soul.",
     features: ["Art Curation", "Fabric Selection", "Custom Installations", "Seasonal Styling"],
     icon: <Palette size={40} />,
-    image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/480906495_948342584095587_3438252210585247962_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1TK5MGwB6EsQ7kNvwHRfFA0&_nc_oc=AdrYd5GyenFEB5lfVoQsJh9JMWRi1g8e2yMv1Mw2PwRtXOmsjcBDohK5f7-KeU2-m6s&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=ZAo3FfxZV9wwi_1AUXfkeA&_nc_ss=7b2a8&oh=00_Af4cB8735O8OtO2NXderzPISVG90YKaUdJW9aBPvVfoCXg&oe=6A0BE063"
+    image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

@@ -280,7 +280,7 @@ export default function HomePage() {
                 whileTap={{ scale: 0.98 }}
                 className="relative h-[500px] md:h-[600px] rounded-[40px] overflow-hidden group cursor-pointer shadow-2xl"
               >
-                <img src="https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/481056339_947734527489726_4725817330014701814_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=w1xFB3XKQI4Q7kNvwEIoEcE&_nc_oc=AdqkZd01JPS-CT-301RwBjC33WZtQmn4AxsFP7y23qNj1_yz-IhfE0p23vuzSE5dCSY&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=GSA0DtpWPev3_bSYWaJjiA&_nc_ss=7b2a8&oh=00_Af6hHkvOXhjdgB5uASpcrW-ODv5_CuQVoZm7t1tAhyAZiw&oe=6A0BE7ED" alt="Culinary Hub" className="w-full h-full object-cover grayscale-[0.1] transition-transform duration-1000 group-hover:scale-110" />
+                  <img src="https://images.unsplash.com/photo-1556911220-07639a747f75?auto=format&fit=crop&w=800&q=80" alt="Culinary Hub" className="w-full h-full object-cover grayscale-[0.1] transition-transform duration-1000 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
                 <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -294,13 +294,13 @@ export default function HomePage() {
   
               <div className="space-y-10">
                 <motion.div
-                  initial={{ opacity: 0, x: 30 }}
+                  initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   whileTap={{ scale: 0.98 }}
                   className="relative h-[240px] md:h-[280px] rounded-[30px] overflow-hidden group shadow-xl cursor-pointer"
                 >
-                  <img src="https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/481914496_950154680581044_4886769071117616059_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jIG0SuMMGZQQ7kNvwHI9m6N&_nc_oc=AdpGjcs-bl0SCwNessWYKy8zQWagGBbxLT1UvLNzfVyh4eC-gypLPlhHAORlB3o2WV4&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=cWtwyG1eer64YAtvbQx7dA&_nc_ss=7b2a8&oh=00_Af72xSnJibgvFPc1MA3thEBSAs1WAN_fhOHVks_Fhv9usQ&oe=6A0BE33A" alt="Office Suites" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                  <img src="https://images.unsplash.com/photo-1497366216548-375260702979?auto=format&fit=crop&w=800&q=80" alt="Office Suites" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
                   <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -319,7 +319,7 @@ export default function HomePage() {
                   whileTap={{ scale: 0.98 }}
                   className="relative h-[240px] md:h-[280px] rounded-[30px] overflow-hidden group shadow-xl cursor-pointer"
                 >
-                  <img src="https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/597698666_1170675678528942_7194215938124507121_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8IvTrA5SeYkQ7kNvwGT1C8x&_nc_oc=AdqZgX6t4LhmX93j6zXhLzMFtF8BZuWSo3APfbXJyHhWzgNyIEcpY1VPfP5V-DuGVrU&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=yNJk2i7WjcxZQjkiprHiFg&_nc_ss=7b2a8&oh=00_Af4QkRkfILcPo_iewYwTqmSrsZNaPTb6A_rkcqD-bFNpsw&oe=6A0BEFEA" alt="Wardrobes" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                  <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Wardrobes" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
                   <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">

@@ -53,7 +53,7 @@ export default function AboutPage() {
               className="relative aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl cursor-pointer"
             >
               <img
-                src="https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/480750678_947939020802610_8475343886349595597_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IpNDfyAmJAQQ7kNvwEr_8FA&_nc_oc=AdqLfqUuO9sHdKkVAA6Nr16tTNyzzewO7twZ6HxUZVpemfWZdc0LxGP_8Hv3A6R3USk&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=EOINXLUnL9RS_8nGdSPzHw&_nc_ss=7b2a8&oh=00_Af45KmxuxePQRiP_wJeyqEYFkXEXXDyjR4QibkNBMX4M2Q&oe=6A0BD7CF"
+                src="https://images.unsplash.com/photo-1618221195710-2f77122a3b34?auto=format&fit=crop&w=800&q=80"
                 alt="Elite Interiors"
                 className="w-full h-full object-cover grayscale-[0.1]"
               />
