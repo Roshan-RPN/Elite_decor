@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useSearchParams } from "next/navigation";
 
-const categories = ["All", "Kitchen", "Bedroom", "Sitting", "Interior", "Office", "Exterior"];
+const categories = ["All", "Kitchen", "Bedroom", "Sitting Room", "Interior", "Office", "Exterior"];
 
 const projects = [
   // Kitchen
@@ -20,8 +20,8 @@ const projects = [
   { id: 5, title: "Minimalist Sanctuary", category: "Bedroom", image: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80" },
   
   // Sitting Room
-  { id: 6, title: "The Grand Lounge", category: "Sitting", image: "https://images.unsplash.com/photo-1618221195710-2f77122a3b34?auto=format&fit=crop&w=800&q=80" },
-  { id: 7, title: "Contemporary Living", category: "Sitting", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" },
+  { id: 6, title: "The Grand Lounge", category: "Sitting Room", image: "https://images.unsplash.com/photo-1618221195710-2f77122a3b34?auto=format&fit=crop&w=800&q=80" },
+  { id: 7, title: "Contemporary Living", category: "Sitting Room", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" },
   
   // Office
   { id: 8, title: "Modern Corporate Workspace", category: "Office", image: "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/539403562_1082762387320272_2082729292234331129_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yvR2JcKBoqgQ7kNvwG3y8A5&_nc_oc=Adq0vHhmWPcT57KZlEg1hhftxvKMJs9QUAwzSIKiRjB8N9ns4EJE52mxs5pogMdmq9Y&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=WX-lk3CpedFFznfM2UgVQA&_nc_ss=7b2a8&oh=00_Af5V8FwvtlHDkfZnEYetCr53ifshXZ9g3xP0cL2cLY2sow&oe=6A0BD382" },
