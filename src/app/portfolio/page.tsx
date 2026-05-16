@@ -141,7 +141,7 @@ function PortfolioGallery() {
           animate={{ opacity: 1 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-8xl lg:text-9xl font-heading font-bold mb-6 leading-[0.9] tracking-tighter uppercase px-4">Masterpieces</h1>
+          <h1 className="text-4xl md:text-8xl lg:text-9xl font-heading font-bold mb-6 leading-[0.9] tracking-tighter uppercase px-4 gold-gradient">Masterpieces</h1>
           <p className="text-foreground/60 max-w-2xl mx-auto font-body font-light tracking-wide mb-12">
             A curated selection of our most prestigious projects.
           </p>
