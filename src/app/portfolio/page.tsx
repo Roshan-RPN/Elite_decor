@@ -154,7 +154,7 @@ function PortfolioGallery() {
                 className={cn(
                   "px-6 py-2 rounded-full border transition-all duration-300 text-sm font-medium tracking-widest uppercase",
                   activeCategory === cat 
-                    ? "bg-primary border-primary text-background" 
+                    ? "gold-btn border-primary" 
                     : "bg-transparent border-white/10 text-white/40 hover:border-white/30 hover:text-white"
                 )}
               >

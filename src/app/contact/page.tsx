@@ -69,7 +69,7 @@ export default function ContactPage() {
               <label className="text-[10px] font-bold uppercase tracking-widest text-primary px-2">Message</label>
               <textarea rows={4} className="w-full bg-secondary/50 border border-primary/20 rounded-2xl p-4 focus:border-primary outline-none transition-all duration-300 font-body text-white placeholder:text-white/20 resize-none shadow-inner" placeholder="Tell us about your project..." />
             </div>
-            <button className="w-full bg-primary text-background py-5 rounded-2xl font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-3 hover:scale-[1.02] transition-all active:scale-[0.98] shadow-lg shadow-primary/20 relative z-10">
+            <button className="w-full gold-btn py-5 rounded-2xl font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-3 hover:scale-[1.02] transition-all active:scale-[0.98] shadow-lg shadow-primary/20 relative z-10">
               Send Inquiry <Send size={18} />
             </button>
           </motion.div>

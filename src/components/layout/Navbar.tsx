@@ -58,13 +58,12 @@ export default function Navbar() {
             href="https://wa.me/919061486768"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative px-6 py-2.5 rounded-xl border border-white/20 text-xs font-bold uppercase tracking-widest overflow-hidden transition-all duration-300 hover:border-primary"
+            className="group relative px-6 py-2.5 rounded-xl gold-btn text-xs font-bold uppercase tracking-widest transition-all duration-300"
           >
-            <span className="relative z-10 flex items-center gap-2 group-hover:text-background transition-colors duration-300 text-white group-hover:text-background">
+            <span className="relative z-10 flex items-center gap-2">
               <Phone size={14} />
               Inquiry
             </span>
-            <div className="absolute inset-0 bg-primary transition-transform translate-y-full group-hover:translate-y-0 duration-300" />
           </a>
         </div>
  

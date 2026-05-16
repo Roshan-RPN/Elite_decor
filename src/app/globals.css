@@ -4,10 +4,10 @@
 :root {
   --background: #0A0A0A;
   --foreground: #F5F5F5;
-  --primary: #B8860B;
+  --primary: #DAA520;
   --secondary: #121212;
   --accent-mint: #AAF0D1;
-  --cta: #B8860B;
+  --cta: #DAA520;
 }
 
 @theme inline {
