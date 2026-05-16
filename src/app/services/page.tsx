@@ -134,7 +134,7 @@ export default function ServicesPage() {
                 </div>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-primary text-background font-bold uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-lg shadow-primary/20"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl gold-btn font-bold uppercase tracking-widest transition-all duration-300 shadow-lg shadow-primary/20"
                 >
                   Enquire Now <ArrowRight size={18} />
                 </Link>

@@ -126,7 +126,7 @@ export default function HomePage() {
             >
               <Link
                 href="/portfolio"
-                className="group relative px-10 py-5 bg-primary text-background rounded-xl font-bold uppercase tracking-widest overflow-hidden transition-all duration-300 hover:scale-105 w-full sm:w-auto text-center shadow-xl"
+                className="group relative px-10 py-5 gold-btn rounded-xl font-bold uppercase tracking-widest overflow-hidden transition-all duration-300 hover:scale-105 w-full sm:w-auto text-center shadow-xl"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   Explore Projects <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -136,7 +136,7 @@ export default function HomePage() {
                 href="https://wa.me/919061486768"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-10 py-5 rounded-xl font-bold uppercase tracking-widest border border-white/20 hover:bg-white/10 transition-all duration-300 text-white w-full sm:w-auto text-center"
+                className="px-10 py-5 rounded-xl font-bold uppercase tracking-widest border border-primary/40 hover:bg-primary/10 transition-all duration-300 text-white w-full sm:w-auto text-center"
               >
                 WhatsApp Inquiry
               </a>

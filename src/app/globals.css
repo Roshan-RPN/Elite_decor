@@ -4,10 +4,10 @@
 :root {
   --background: #0A0A0A;
   --foreground: #F5F5F5;
-  --primary: #C5A059;
+  --primary: #B8860B;
   --secondary: #121212;
   --accent-mint: #AAF0D1;
-  --cta: #C5A059;
+  --cta: #B8860B;
 }
 
 @theme inline {
@@ -44,12 +44,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gold-gradient {
-  background: linear-gradient(135deg, #C5A059 0%, #F1D592 50%, #C5A059 100%);
+  background: linear-gradient(135deg, #B8860B 0%, #FFD700 50%, #B8860B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  padding-right: 0.3em;
-  margin-right: -0.3em;
+}
+
+.gold-btn {
+  background: linear-gradient(135deg, #B8860B 0%, #FFD700 50%, #B8860B 100%);
+  color: #0A0A0A !important;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gold-btn:hover {
+  background: linear-gradient(135deg, #FFD700 0%, #B8860B 50%, #FFD700 100%);
+  box-shadow: 0 0 20px rgba(184, 134, 11, 0.4);
 }
 
 .premium-overlay {

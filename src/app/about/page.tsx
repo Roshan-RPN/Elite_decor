@@ -53,7 +53,7 @@ export default function AboutPage() {
               className="relative aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl cursor-pointer"
             >
               <img
-                src="/assets/about-logo.png"
+                src="/assets/logo.png"
                 alt="Elite Decor Branding"
                 className="w-full h-full object-contain p-12 bg-black"
               />
@@ -149,7 +149,7 @@ export default function AboutPage() {
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-10 py-5 bg-background text-primary rounded-xl font-bold uppercase tracking-widest hover:scale-105 transition-all duration-300 shadow-2xl"
+                className="inline-flex items-center gap-2 px-10 py-5 gold-btn rounded-xl font-bold uppercase tracking-widest transition-all duration-300 shadow-2xl"
               >
                 Get Started <ArrowRight size={20} />
               </Link>
