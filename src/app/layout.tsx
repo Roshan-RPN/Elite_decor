@@ -4,8 +4,8 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Elite Decor | Luxury Interior Designers in Kochi | Since 1992",
-  description: "Bespoke luxury interior design in Kochi with 30+ years of mastery. Specializing in high-end residential, corporate, and commercial spaces.",
+  title: "Elite Decor | Luxury Interior Designers in Kochi",
+  description: "Bespoke luxury interior design in Kochi. Specializing in high-end residential, corporate, and commercial spaces.",
 };
 
 export default function RootLayout({
