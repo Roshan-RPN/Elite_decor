@@ -81,14 +81,14 @@ export default function HomePage() {
             />
           </motion.div>
 
-          <div className="relative z-20 max-w-7xl mx-auto text-center space-y-6 md:space-y-10">
+          <div className="relative z-20 max-w-7xl mx-auto text-center space-y-6 md:space-y-10 pt-20 md:pt-32">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="flex flex-col items-center mt-12 md:mt-20"
+              className="flex flex-col items-center"
             >
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold leading-[1] md:leading-[1] tracking-tighter text-white uppercase flex flex-col items-center">
+              <h1 className="text-5xl md:text-8xl lg:text-9xl font-heading font-bold leading-[1.1] md:leading-[0.9] tracking-tighter text-white uppercase flex flex-col items-center">
                 <motion.span
                   initial={{ opacity: 0, x: -30 }}
                   animate={{ opacity: 1, x: 0 }}
