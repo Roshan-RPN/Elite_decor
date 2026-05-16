@@ -38,8 +38,9 @@ export default function Navbar() {
       className="fixed top-6 left-0 right-0 z-50 px-6 flex justify-center"
     >
       <div className="flex items-center justify-between w-full max-w-7xl px-8 py-4 rounded-2xl bg-[#0A0A0A]/95 backdrop-blur-2xl border border-white/10 text-white shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
-        <Link href="/" className="text-2xl font-heading font-bold tracking-widest flex items-center gap-2">
-          <span className="gold-gradient">ELITE DECOR</span>
+        <Link href="/" className="flex items-center gap-3 group">
+          <img src="/assets/logo.png" alt="Elite Decor Logo" className="h-10 md:h-12 w-auto object-contain" />
+          <span className="text-xl md:text-2xl font-heading font-bold tracking-widest gold-gradient hidden sm:block">ELITE DECOR</span>
         </Link>
  
         <div className="hidden md:flex items-center gap-10">

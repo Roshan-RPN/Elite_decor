@@ -44,36 +44,36 @@ function ServiceImage({ image, title }: { image: string, title: string }) {
 
 const services = [
   {
-    title: "Luxury Residential Design",
-    category: "Homes",
-    description: "Creating sanctuaries of luxury. From presidential suites to sprawling villas, we design every room to reflect your status and style.",
-    features: ["Custom Furniture", "Lighting Design", "Material Sourcing", "Full Turnkey Execution"],
-    icon: <Home size={40} />,
-    image: "https://images.unsplash.com/photo-1616594084638-30cf7aba077a?auto=format&fit=crop&w=800&q=80"
+    title: "Bespoke Modular Kitchens",
+    category: "Kitchen",
+    description: "Where culinary art meets high-end engineering. We create ergonomically optimized kitchens that blend seamless functionality with sophisticated aesthetics.",
+    features: ["Custom Cabinetry", "Premium Countertops", "Smart Storage Solutions", "High-End Fittings"],
+    icon: <Layout size={40} />,
+    image: "/assets/projects/kitchen_mint.png"
   },
   {
-    title: "Corporate Interior Architecture",
-    category: "Business",
-    description: "Designing high-performance workspaces that foster creativity and project professional authority.",
-    features: ["Ergonomic Planning", "Brand Integration", "Boardroom Excellence", "Acoustic Optimization"],
-    icon: <Building2 size={40} />,
-    image: "https://images.unsplash.com/photo-1497366216548-375260702979?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Custom Kitchens & Baths",
-    category: "Specialized",
-    description: "Where culinary art meets engineering. We create kitchens and bathrooms that are as functional as they are beautiful.",
-    features: ["Smart Kitchen Tech", "Premium Marble Finish", "Custom Cabinetry", "Efficient Plumbing Flows"],
-    icon: <Layers size={40} />,
-    image: "https://images.unsplash.com/photo-1556911220-07639a747f75?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Artistic Decor & Styling",
-    category: "Curation",
-    description: "The final touch that defines the space. We source the finest art and accessories to complete your interior's soul.",
-    features: ["Art Curation", "Fabric Selection", "Custom Installations", "Seasonal Styling"],
+    title: "Luxury Wardrobe Solutions",
+    category: "Wardrobe",
+    description: "Intelligent storage systems and premium walk-in closets tailored to your personal style and spatial requirements.",
+    features: ["Sliding & Hinged Systems", "Built-in Organizers", "Premium Mirror Finishes", "Integrated Lighting"],
     icon: <Palette size={40} />,
-    image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80"
+    image: "/assets/projects/wardrobe_black_gold.png"
+  },
+  {
+    title: "Signature Living Spaces",
+    category: "Sitting Room",
+    description: "Crafting the social heart of your home. We design sitting rooms and lounges that exude luxury and invite comfort.",
+    features: ["Custom Media Units", "Accent Wall Design", "Furniture Curation", "Mood Lighting"],
+    icon: <Home size={40} />,
+    image: "/assets/projects/sitting_room_black_sofa.png"
+  },
+  {
+    title: "Executive Workspaces",
+    category: "Office",
+    description: "Designing high-performance professional environments that foster productivity and project corporate authority.",
+    features: ["Ergonomic Desks", "Storage Management", "Acoustic Solutions", "Corporate Styling"],
+    icon: <Building2 size={40} />,
+    image: "/assets/projects/office_wood_desk.png"
   }
 ];
 

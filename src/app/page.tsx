@@ -39,10 +39,10 @@ function ServiceCard({ service, idx }: { service: any, idx: number }) {
         <img 
           src={service.image} 
           alt={service.title} 
-          className="absolute inset-0 w-full h-full object-cover grayscale-[0.1] brightness-90 transition-transform duration-700 group-hover:scale-110"
+          className="absolute inset-0 w-full h-full object-cover brightness-100 transition-transform duration-700 group-hover:scale-110"
         />
-        <div className="absolute inset-0 bg-black/40 md:bg-black/30 group-hover:bg-black/70 transition-all duration-500 z-10" />
-        <div className="absolute inset-0 premium-overlay opacity-60 pointer-events-none" />
+        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-all duration-500 z-10" />
+        <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
       </div>
       
       <div style={{ transform: "translateZ(50px)" }} className="absolute bottom-0 left-0 w-full p-8 z-20 md:translate-y-6 md:group-hover:translate-y-0 transition-transform duration-500">
@@ -176,8 +176,8 @@ export default function HomePage() {
                 </h3>
               </div>
               <p className="text-foreground/70 text-lg leading-relaxed font-light mx-auto lg:mx-0 max-w-2xl">
-                At Elite Decor, we believe your space should be an extension of your identity. 
-                Our approach blends architectural precision with artistic flair to create 
+                Elite Decor is a premier home interior company in Ernakulam with over 20 years of expertise. 
+                We specialize in blending architectural precision with artistic flair to create 
                 interiors that are both luxurious and deeply personal.
               </p>
               <div className="grid grid-cols-2 gap-8 pt-6 max-w-md mx-auto lg:mx-0">
@@ -204,7 +204,7 @@ export default function HomePage() {
               <img 
                 src="/assets/kitchen.png" 
                 alt="Elite Kitchen" 
-                className="w-full h-full object-cover rounded-2xl grayscale-[0.2] brightness-90"
+                className="w-full h-full object-cover rounded-2xl brightness-100"
               />
               <div className="absolute inset-0 premium-overlay pointer-events-none" />
               <div className="absolute bottom-8 left-8 p-6 glass-card rounded-2xl max-w-xs text-left hidden sm:block">
@@ -229,24 +229,24 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {[
                 { 
-                  title: "Modern Kitchens", 
+                  title: "Kitchen Cabinets", 
                   image: "/assets/kitchen.png",
-                  desc: "Precision-engineered spaces that balance aesthetics with ergonomic perfection.",
+                  desc: "Custom-designed modular kitchens that combine ergonomic perfection with high-end aesthetics.",
                   icon: <Layout className="text-primary" size={24} />,
                   category: "Kitchen"
                 },
                 { 
-                  title: "Luxury Living", 
-                  image: "/assets/hero.png",
-                  desc: "Spaces designed for comfort, luxury, and social elegance.",
-                  icon: <Home className="text-primary" size={24} />,
+                  title: "Luxury Wardrobes", 
+                  image: "/assets/wardrobe.png",
+                  desc: "Intelligent storage solutions and premium walk-in closets tailored to your lifestyle.",
+                  icon: <Palette className="text-primary" size={24} />,
                   category: "Interior"
                 },
                 { 
-                  title: "Custom Solutions", 
-                  image: "/assets/wardrobe.png",
-                  desc: "Intelligent storage and wardrobe solutions with premium finishes.",
-                  icon: <Palette className="text-primary" size={24} />,
+                  title: "Designer TV Units", 
+                  image: "/assets/hero.png",
+                  desc: "Sophisticated entertainment hubs that serve as the focal point of your modern living space.",
+                  icon: <Home className="text-primary" size={24} />,
                   category: "Interior"
                 },
               ].map((service, idx) => (
@@ -280,9 +280,9 @@ export default function HomePage() {
                 whileTap={{ scale: 0.98 }}
                 className="relative h-[500px] md:h-[600px] rounded-[40px] overflow-hidden group cursor-pointer shadow-2xl"
               >
-                  <img src="https://images.unsplash.com/photo-1556911220-07639a747f75?auto=format&fit=crop&w=800&q=80" alt="Culinary Hub" className="w-full h-full object-cover grayscale-[0.1] transition-transform duration-1000 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
-                <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
+                  <img src="/assets/projects/kitchen_mint.png" alt="Culinary Hub" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/50 transition-all duration-500" />
+                <div className="absolute inset-0 premium-overlay opacity-30 pointer-events-none" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <Link href="/portfolio?category=Kitchen" className="px-10 py-4 bg-white text-black font-bold rounded-full uppercase text-sm tracking-widest shadow-2xl hover:scale-105 transition-transform">View Kitchen</Link>
                 </div>
@@ -300,9 +300,9 @@ export default function HomePage() {
                   whileTap={{ scale: 0.98 }}
                   className="relative h-[240px] md:h-[280px] rounded-[30px] overflow-hidden group shadow-xl cursor-pointer"
                 >
-                  <img src="https://images.unsplash.com/photo-1497366216548-375260702979?auto=format&fit=crop&w=800&q=80" alt="Office Suites" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
-                  <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
+                  <img src="/assets/projects/office_wood_desk.png" alt="Office Suites" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/50 transition-all duration-500" />
+                  <div className="absolute inset-0 premium-overlay opacity-30 pointer-events-none" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <Link href="/portfolio?category=Office" className="px-10 py-4 bg-white text-black font-bold rounded-full uppercase text-sm tracking-widest shadow-2xl hover:scale-105 transition-transform">View Office</Link>
                   </div>
@@ -319,9 +319,9 @@ export default function HomePage() {
                   whileTap={{ scale: 0.98 }}
                   className="relative h-[240px] md:h-[280px] rounded-[30px] overflow-hidden group shadow-xl cursor-pointer"
                 >
-                  <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Wardrobes" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-black/40 md:bg-black/20 group-hover:bg-black/70 transition-all duration-500" />
-                  <div className="absolute inset-0 premium-overlay opacity-40 pointer-events-none" />
+                  <img src="/assets/projects/wardrobe_black_gold.png" alt="Wardrobes" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/50 transition-all duration-500" />
+                  <div className="absolute inset-0 premium-overlay opacity-30 pointer-events-none" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <Link href="/portfolio?category=Interior" className="px-10 py-4 bg-white text-black font-bold rounded-full uppercase text-sm tracking-widest shadow-2xl hover:scale-105 transition-transform">View Wardrobes</Link>
                   </div>

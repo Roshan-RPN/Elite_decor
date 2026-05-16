@@ -14,23 +14,25 @@ export default function Footer() {
           </Link>
           <p className="text-white/70 leading-relaxed max-w-sm font-light">
             Crafting timeless spaces with a blend of luxury, functionality, and artistic vision. 
-            Kerala's premier choice for bespoke interior excellence for over 30 years.
+            Kerala's premier choice for bespoke interior excellence.
           </p>
           <div className="flex gap-4">
-            {[
-              { icon: <Globe size={20} />, href: "https://www.instagram.com/elite_decor_1992" },
-              { icon: <Share2 size={20} />, href: "https://www.facebook.com/share/18HYJb8QHS/" },
-            ].map((social, i) => (
-              <a 
-                key={i}
-                href={social.href} 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-primary/10 rounded-xl text-primary hover:bg-primary hover:text-background transition-all duration-300"
-              >
-                {social.icon}
-              </a>
-            ))}
+            <a 
+              href="https://www.instagram.com/elite_decor_1992?igsh=YnhjZHpjdWJqdzBj" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-primary/10 rounded-xl text-primary hover:bg-primary hover:text-background transition-all duration-300"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a 
+              href="https://www.facebook.com/profile.php?id=100067595621574" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-primary/10 rounded-xl text-primary hover:bg-primary hover:text-background transition-all duration-300"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
           </div>
         </div>
  
@@ -75,7 +77,11 @@ export default function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto pt-12 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-widest text-white/40 font-bold">
-        <p>© {new Date().getFullYear()} Elite Decor Interior Company. All rights reserved.</p>
+        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+          <p>© {new Date().getFullYear()} Elite Decor Interior Company. All rights reserved.</p>
+          <span className="hidden md:block opacity-20">|</span>
+          <p className="text-primary/60">Created by Nexora Systems</p>
+        </div>
         <div className="flex gap-8">
           <Link href="/privacy" className="hover:text-primary">Privacy Policy</Link>
           <Link href="/terms" className="hover:text-primary">Terms of Service</Link>
