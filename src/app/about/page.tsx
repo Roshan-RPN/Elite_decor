@@ -53,11 +53,11 @@ export default function AboutPage() {
               className="relative aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl cursor-pointer"
             >
               <img
-                src="https://images.unsplash.com/photo-1618221195710-2f77122a3b34?auto=format&fit=crop&w=800&q=80"
-                alt="Elite Interiors"
-                className="w-full h-full object-cover grayscale-[0.1]"
+                src="/assets/about-logo.png"
+                alt="Elite Decor Branding"
+                className="w-full h-full object-contain p-12 bg-black"
               />
-              <div className="absolute inset-0 premium-overlay opacity-60" />
+              <div className="absolute inset-0 premium-overlay opacity-20" />
               <div className="absolute bottom-8 left-8 right-8 p-6 bg-white/5 backdrop-blur-2xl rounded-3xl border border-white/10 text-white">
                 <h3 className="text-xl font-heading font-bold mb-2">The Studio</h3>
                 <p className="text-sm text-white/60">Where vision meets precision to create timeless masterpieces.</p>
