@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import MotionProvider from "@/components/providers/MotionProvider";
 
 export const metadata: Metadata = {
   title: "Elite Decor | Luxury Interior Designers in Kochi",
@@ -15,12 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-background text-foreground">
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-background text-foreground">
+        <MotionProvider>
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </MotionProvider>
       </body>
     </html>
   );

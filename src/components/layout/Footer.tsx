@@ -1,8 +1,8 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import Link from "next/link";
-import { Mail, Phone, Globe, Share2, MapPin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,22 +14,24 @@ export default function Footer() {
           </Link>
           <p className="text-white/70 leading-relaxed max-w-sm font-light">
             Crafting timeless spaces with a blend of luxury, functionality, and artistic vision. 
-            Kerala's premier choice for bespoke interior excellence.
+            Kerala&apos;s premier choice for bespoke interior excellence.
           </p>
           <div className="flex gap-4">
             <a 
-              href="https://www.instagram.com/elite_decor_1992?igsh=YnhjZHpjdWJqdzBj" 
+              href="https://www.instagram.com/elite_decor_1992?igsh=YnhjZHpjdWJqdzBj"
+              aria-label="Elite Decor on Instagram"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-primary/10 rounded-xl text-primary hover:bg-primary hover:text-background transition-all duration-300"
+              className="p-3 bg-primary/10 rounded-xl text-primary transition-all duration-500 ease-[var(--ease-out-expo)] hover:bg-primary hover:text-background hover:-translate-y-1"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
             </a>
             <a 
-              href="https://www.facebook.com/profile.php?id=100067595621574" 
+              href="https://www.facebook.com/profile.php?id=100067595621574"
+              aria-label="Elite Decor on Facebook"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-primary/10 rounded-xl text-primary hover:bg-primary hover:text-background transition-all duration-300"
+              className="p-3 bg-primary/10 rounded-xl text-primary transition-all duration-500 ease-[var(--ease-out-expo)] hover:bg-primary hover:text-background hover:-translate-y-1"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
@@ -47,7 +49,7 @@ export default function Footer() {
             ].map((link) => (
               <li key={link.name}>
                 <Link href={link.href} className="text-white/60 hover:text-primary transition-colors flex items-center gap-2 group">
-                  {link.name} <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                  {link.name} <ArrowUpRight size={14} className="opacity-0 -translate-x-1 translate-y-1 transition-all duration-500 ease-[var(--ease-out-expo)] group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0" />
                 </Link>
               </li>
             ))}
@@ -76,9 +78,9 @@ export default function Footer() {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto pt-12 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-widest text-white/40 font-bold">
+      <div className="max-w-7xl mx-auto pt-12 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-6 text-[11px] uppercase tracking-widest text-white/55 font-bold">
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
-          <p>© {new Date().getFullYear()} Elite Decor Interior Company. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Elite Decor Interior Company. All rights reserved.</p>
           <span className="hidden md:block opacity-20">|</span>
           <p className="text-primary/60">Created by Nexora Systems</p>
         </div>
